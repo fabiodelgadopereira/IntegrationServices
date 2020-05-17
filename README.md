@@ -36,7 +36,7 @@ Você pode instalar o SQL Server Integration Services nas seguintes configuraç�
 
 ## Connection
 
-O primeiro passo é criar a connection com a base de dados, nesse exemplo a conexão é feita com OLEDB para o banco de dados "CadastroDB". O script para criação das tabelas esta na pasta 'script' desse repositório.
+O primeiro passo é criar a connection com a base de dados, nesse exemplo a conexão é feita com OLEDB para o banco de dados "CadastroDB". O script para criação das tabelas esta na pasta `script` desse repositório.
 
 ![connection](/img/conection.PNG)
 
@@ -66,8 +66,8 @@ O resultado final fica assim:
 
 ![flow](/img/flow.PNG)
 
-O arquivo 'data.csv' tem os dados para cadastro da tabela de cliente. Ele contém informações "fake" para representar um ambiente realistico.
-O script para criação das tabelas é o 'CadastroDB.sql'
+O arquivo `data.csv` tem os dados para cadastro da tabela de cliente. Ele contém informações "fake" para representar um ambiente realistico.
+O script para criação das tabelas é o `CadastroDB.sql`
 
 ![select](/img/select.PNG)
 
