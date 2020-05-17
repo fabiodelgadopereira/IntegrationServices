@@ -36,7 +36,7 @@ Você pode instalar o SQL Server Integration Services nas seguintes configuraç�
 
 ## Connection
 
-O primeiro passo é criar a connection com a base de dados, nesse exemplo a conexão é feita com OLEDB.
+O primeiro passo é criar a connection com a base de dados, nesse exemplo a conexão é feita com OLEDB para o banco de dados "CadastroDB". O script para criação das tabelas esta na pasta 'script' desse repositório.
 
 ![connection](/img/conection.PNG)
 
@@ -46,7 +46,7 @@ Para buscar as informações, disponibilizei um arquivo CSV com dados fake para 
 
 Para facilitar a reutilização de código, criei a parametrização do ETL. Nesse exemplo parametrizei a servername, username e password. Essa parametrização é importante pois, caso a senha do banco de dados mude será necessario alterar apenas um campo parametros e não todas as connections dentro do ETL. É muito comum no ambiente produtivo o analista de suporte ter acesso para alterar o valor dos parametros, facilitando assim as manutenções futuras. 
 
-Para fazer esssa parametriação, clique com o botão direito na connection e clique em "parametros".
+Para fazer esssa parametriação, clique com o botão direito na connection e clique em "parametrizar".
 
 ![parametize](/img/parametize.PNG)
 
