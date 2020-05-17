@@ -23,20 +23,29 @@ Nesse exemplo, é feito uma carga de dados vinda de um arquivo CSV para uma tabe
 
 ![integration](/img/integration.PNG)
 
+## Connection
+
 ![conection](/img/conection.PNG)
 
-![flow](/img/flow.PNG)
+## Conversor
 
 ![conversao](/img/conversao.PNG)
 
+## Fluxo
+
+![flow](/img/flow.PNG)
+
 O arquivo 'data.csv' tem os dados para cadastro da tabela de cliente. Ele contém informações "fake" para representar um ambiente realistico.
+O script para criação das tabelas é o 'CadastroDB.sql'
 
 ![select](/img/select.PNG)
 
 ## Publicação
 
+Execute o package file no catálogo de Integration service catalog usando este comando (correspondendo a versão do SQL Server à sua versão instalada):
+
 ```shell
-dtexec Package.dtsx
+dtexec /F Package.dtsx
 ```
 
 ## Suporte
